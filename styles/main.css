@@ -8,6 +8,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+body a {
+  text-decoration: none;
+  color: white;
+}
+
 body nav {
   display: -webkit-box;
   display: -ms-flexbox;
