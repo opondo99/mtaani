@@ -88,8 +88,8 @@ body header .bg-video iframe {
 }
 
 body header .hero {
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #0c8c47), to(rgba(15, 169, 88, 0)));
-  background: linear-gradient(90deg, #0c8c47 50%, rgba(15, 169, 88, 0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #000000), to(rgba(15, 169, 88, 0)));
+  background: linear-gradient(90deg, #000000 50%, rgba(15, 169, 88, 0) 100%);
   margin: 0;
   padding: 0;
   width: 50vw;
