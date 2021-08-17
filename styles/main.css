@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 body {
   margin: 0;
   padding: 0;
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 body nav {
@@ -17,7 +19,7 @@ body nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 8vh;
+  min-height: 7vh;
   width: 100vw;
   background-color: black;
   padding: 0;
@@ -25,8 +27,8 @@ body nav {
 }
 
 body nav .logo {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-image: url(../assets/mtlogo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -69,7 +71,7 @@ body header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 90vh;
+  min-height: 93vh;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -77,14 +79,14 @@ body header {
 
 body header .bg-video {
   width: 100vw;
-  height: 90vh;
+  height: 93vh;
   position: absolute;
   z-index: -1;
 }
 
 body header .bg-video iframe {
   width: 100vw;
-  height: 90vh;
+  height: 93vh;
 }
 
 body header .hero {
@@ -93,7 +95,7 @@ body header .hero {
   margin: 0;
   padding: 0;
   width: 50vw;
-  min-height: 90vh;
+  min-height: 93vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
