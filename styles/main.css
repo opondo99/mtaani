@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 100vw;
+}
+
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  min-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
@@ -65,6 +73,10 @@ body nav .menu ul li {
   min-width: 150px;
 }
 
+body #menuToggle {
+  display: none;
+}
+
 body header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,6 +92,7 @@ body header {
   width: 100vw;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 body header .bg-video {
@@ -160,6 +173,10 @@ body .about {
   z-index: -1;
 }
 
+body .about .mobile-bg {
+  display: none;
+}
+
 body .about .about-head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,6 +187,7 @@ body .about .about-head {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
   padding: 2rem 0 0 0;
   width: 90vw;
   min-height: 10vh;

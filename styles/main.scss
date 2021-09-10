@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+    
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 100vw;
+}
 body{
     margin: 0;
     padding: 0;
-    width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
@@ -24,13 +30,13 @@ body{
         padding: 0;
         margin: 0;
 
+
         .logo {
             width: 50px;
             height: 50px;
             background-image: url(../assets/mtlogo.png);
             background-size: contain;
             background-repeat: no-repeat;
-            // padding: 0 50px 0 50px;
             margin: 0 5vw;
         }
 
@@ -53,6 +59,12 @@ body{
         }
     }
 
+
+
+    #menuToggle {
+        display: none;
+    }
+
     header {
         display: flex;
         flex-direction: row;
@@ -61,6 +73,7 @@ body{
         width: 100vw;
         margin: 0;
         padding: 0;
+        position: relative;
         
         .bg-video {
             // background-repeat: no-repeat;
@@ -125,11 +138,16 @@ body{
         min-height: 90vh;
         background-color: white;
         z-index: -1;
+
+        .mobile-bg {
+            display: none;
+        }
         .about-head {
             display: flex;
             align-items: center;
             justify-content: center;
             // flex-direction: column;
+            position: relative;
             padding: 2rem 0 0 0;
             width: 90vw;
             min-height: 10vh;
@@ -569,3 +587,5 @@ body{
         }
     }
 }
+
+// }

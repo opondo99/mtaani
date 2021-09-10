@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io /favicon-16x16.png">
     <link rel="manifest" href="./favicon_io /site.webmanifest">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/mobileview/mobile.css">
 </head>
 <body>
     <nav>
@@ -20,9 +21,46 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact Us</a></li>
                 <li><a href="https://portal.mtaani.pro/" target="_blank">Account</a></li>
+                <!-- <li><a href="./nav.html">nav</a></li> -->
             </ul>
         </div>
+
+
+
+
+
     </nav>
+
+
+        <!-- Humburgerr menu trial 1 -->
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="#"><li>Home</li></a>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="https://portal.mtaani.pro/" target="_blank">Account</a></li>
+            </ul>
+        </div>
     <header>
         <div class="bg-video">
             <iframe width="1244" height="698" src="https://www.youtube.com/embed/p52PY_cwIsA?rel=0&autoplay=1&mute=1&loop=1&playlist=p52PY_cwIsA&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,6 +91,7 @@
                 <h1>Home Internet</h1>
                 <div class="hm-intro">
                     <div class="hm-img"></div>
+                    <div class="mobile-bg"></div>
                     <p>Reliable and robust broadband and fiber internet solutions for home. You can enjoy entertainment, gaming, learning and more with no downtime or interaptions </p>    
                 </div>
                 <div class="pkg-list">
@@ -73,6 +112,7 @@
                 <h1>Corporate Internet</h1>
                 <div class="corp-intro">
                     <div class="cor-img"></div>
+                    <div class="mobile-bg"></div>
                     <p>Office and House Office user high quality bandwidth and stable unlimited internet. Fiber connectivity designed to meet your growing business needs. Fiber connectivity ensures strategic objects and results.</p>    
                 </div>
                 <div class="pkg-list">
@@ -163,8 +203,7 @@
                     <p>P.O Box 2870-00200 Nairobi</p>
                 </div>
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5853.361254710791!2d36.74907096197459!3d-1.3958099429637099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05c4f34c6643%3A0x356d80ff0d63d612!2sQuickmart%20Rongai!5e0!3m2!1sen!2ske!4v1629206456034!5m2!1sen!2ske" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1994.317648905173!2d36.7640722!3d-1.3953023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x25f9e54e0ead9a0!2sChicken%20Inn%20Rongai!5e0!3m2!1sen!2ske!4v1630322893116!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                </div>
             </div>
         </div>
     </section>
