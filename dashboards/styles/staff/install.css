@@ -1,1 +1,232 @@
-/* No CSS *//*# sourceMappingURL=install.css.map */
+@media only screen and (max-width: 420px) {
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  html body .head {
+    width: 90%;
+    margin: auto;
+    min-height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .head .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .head .top .service {
+    background-color: black;
+    color: white;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body .head .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .site-survey {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 90%;
+    margin: 10px auto;
+    min-height: 30vh;
+  }
+  html body .site-survey .sshead {
+    width: 70%;
+    border-bottom: 1px solid black;
+    min-height: 5vh;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  html body .site-survey .sshead h1 {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  html body .site-survey .status {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .site-survey .status .toggle {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  html body .site-survey .version {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .site-survey .version .toggle {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  html body .installation {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  html body .installation .inhead {
+    width: 70%;
+    border-bottom: 1px solid black;
+  }
+  html body .installation .inhead h1 {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  html body .installation .form {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 20vh;
+    padding: 30px;
+  }
+  html body .installation .form .fade {
+    opacity: .5;
+  }
+  html body .installation .form div {
+    width: 40%;
+    height: 5vh;
+    min-height: 5vh;
+    margin: 0 5px;
+    position: relative;
+  }
+  html body .installation .form div p {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    background-color: white;
+    padding: 0 10px;
+  }
+  html body .installation .form div input {
+    width: 35vw;
+  }
+  html body .installation .form .comment {
+    width: 90%;
+  }
+  html body .installation .form .comment input {
+    width: 90%;
+    height: 100%;
+    margin: 0 5%;
+  }
+  html body .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 8vh;
+    background-color: black;
+  }
+  html body .footer a {
+    text-decoration: none;
+    color: black;
+    height: 50%;
+  }
+}
+/*# sourceMappingURL=install.css.map */

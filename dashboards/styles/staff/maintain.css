@@ -1,1 +1,182 @@
-/* No CSS *//*# sourceMappingURL=maintain.css.map */
+@media only screen and (max-width: 420px) {
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  html body .head {
+    width: 90%;
+    margin: auto;
+    min-height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .head .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .head .top .service {
+    background-color: black;
+    color: white;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  html body .head .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  html body .problem-des {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 90%;
+    margin: 10px auto;
+    min-height: 30vh;
+  }
+  html body .problem-des .pdhead {
+    width: 80%;
+    border-bottom: 1px solid black;
+    min-height: 5vh;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  html body .problem-des .pdhead h1 {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  html body .problem-des .des {
+    width: 90%;
+  }
+  html body .border {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: black;
+  }
+  html body .routers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 90%;
+    height: 20vh;
+  }
+  html body .routers .router-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+  html body .comment {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+  }
+  html body .comment p {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    padding: 0 10px;
+    background-color: white;
+  }
+  html body .comment input {
+    width: 90%;
+    height: 50px;
+    margin: 0 5%;
+  }
+  html body .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 8vh;
+    background-color: black;
+  }
+  html body .footer a {
+    text-decoration: none;
+    color: black;
+    height: 50%;
+  }
+}
+/*# sourceMappingURL=maintain.css.map */
