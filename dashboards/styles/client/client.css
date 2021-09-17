@@ -151,6 +151,8 @@
   html body .routers .router .link a {
     color: white;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
   }
   html body footer {
     position: fixed;
