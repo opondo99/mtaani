@@ -29,28 +29,45 @@
         </div>
     </div>
     <div class="border"></div>
+
+
+    
     <div class="routers">
-        <!-- <div class="router"> -->
-        <div class="router-id">
-            <div class="router1">mt642</div>
-            <div class="router2">e4342</div>
-            <div class="router3">re234</div>
+
+        <div class="tab">
+            <button id="defaultOpen" class="tablinks" onclick="viewDetails(event, 'description')">Router 1</button>
+            <button class="tablinks" onclick="viewDetails(event, 'description1')">Router 1</button>
+            <button class="tablinks" onclick="viewDetails(event, 'description2')">Router 1</button>
         </div>
-        <div class="router-des">
-            <div class="router1-des">cable replacement</div>
-            <div class="router1-des">router malfunctio</div>
-            <div class="router1-des">cable connection</div>
+
+        <div id="description" class="tabcontent">
+            <p>Cable replacement</p>
         </div>
-        <!-- </div> -->
+
+        <div id="description1" class="tabcontent">
+            <p>Router replacement</p>
+        </div>
+
+        <div id="description2" class="tabcontent">
+            <p>Wire replacement</p>
+        </div>
+
     </div>
+
     <div class="comment">
         <p>Comments</p>
         <input type="text">
     </div>
+<!-- 
+    <div class="test">
+        <div class="clip"></div>
+    </div> -->
     
     <div class="footer">
         <button><a href="./operations.html">Cancel</a></button>
         <button><a href="./operations.html">Done</a></button>
     </div>
+
+    <script src="../js/main.js"></script>
 </body>
 </html>
